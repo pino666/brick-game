@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>砖块碰撞游戏</title>
+
+    <style media="screen">
+        canvas {
+            border: 1px black solid;
+        }
+    </style>
+    <!-- guagame相关文件 -->
+    <script src="guagame/utils.js"></script>
+    <script src="guagame/gua_game.js"></script>
+    <script src="guagame/gua_scene.js"></script>    
+    <script src="guagame/mouse.js"></script>    
+    <!-- 场景文件 -->
+    <script src="scene/main/paddle.js"></script>
+    <script src="scene/main/ball.js"></script>
+    <script src="scene/main/block.js"></script>
+    <script src="scene/main/scene.js"></script>
+    <!-- 结束和标题场景 -->
+    <script src="scene/end/scene_end.js"></script>
+    <script src="scene/title/scene_title.js"></script>
+    <!-- 关卡数据 -->
+    <script src="level.js"></script>
+    
+    
+    
+    
+    
+</head>
+ 
+<body>
+    <canvas id="id-canvas" width="400" height="300"></canvas>
+    <hr>
+    <input id="id-input-speed" type="range" value="1">
+
+    <script src="main.js"></script>
+    
+    <script>
+        //最初始的粗糙代码
+        // var canvas = document.querySelector('#id-canvas');
+        // var context = canvas.getContext("2d");
+        // var x = 100;
+        // var y = 200;
+        // var speed = 5;
+        //  var Img = new Image();
+        //  Img.src = '2.jpg';
+        //  Img.onload = function (){
+        //     context.drawImage(Img,x,y);
+        //  };
+
+
+        //  var leftDown = false;
+        //  var rightDown = false;
+        // //events
+        // window.addEventListener('keydown',function(event){
+        //     console.log('keydown');
+        //     var k = event.key;
+        //     if (k == 'a'){
+        //        leftDown = true;
+        //     }else if(k == 'd'){
+        //        rightDown = true;
+        //     }
+        // });
+        // window.addEventListener('keyup',function(event){
+        //     console.log('keyup');
+        //     var k = event.key;
+        //     if (k == 'a'){
+        //        leftDown = false;
+        //     }else if(k == 'd'){
+        //        rightDown = false;
+        //     }
+        // });
+
+        // setInterval(function(){
+        //     // 更新x
+        //     if (leftDown){
+        //         x -= speed;
+        //     }else if (rightDown){
+        //         x += speed;
+        //     }
+        //     //判断边框是否出去
+        //     //画
+        //     context.clearRect(0,0,canvas.width,canvas.height);
+        //     context.drawImage(Img,x,y);
+        // },1000/30);
+       
+    </script>
+</body>
+
+</html>
